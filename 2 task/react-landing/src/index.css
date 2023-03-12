@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: var(--font-inter);
+
+  background-color: #0e1014;
+  max-width: 1140px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+
+  margin-top: 46px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    margin-top: 0;
+  }
+
+  Button {
+    display: none;
+  }
+}

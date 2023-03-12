@@ -1,0 +1,140 @@
+.hero_container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 452px;
+  color: #e4e5ea;
+}
+
+.left_container h1 {
+  width: 362px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+
+.left_container span {
+  font-weight: 900;
+
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.left_container p {
+  width: 275px;
+
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.right_container h2 {
+  text-align: right;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  margin-bottom: 40px;
+}
+
+.right_container span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.right_cards div {
+  height: 68px;
+}
+
+.right_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  text-align: right;
+}
+
+.right_cards h3 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.right_cards p {
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .hero_container {
+    margin-top: 40px;
+    margin-left: 16px;
+  }
+
+  .left_container h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 15px;
+  }
+
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right_container {
+    margin-top: 45px;
+  }
+
+  .right_container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .right_cards h3 {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .div_mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+  }
+
+  .p_mobile {
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}

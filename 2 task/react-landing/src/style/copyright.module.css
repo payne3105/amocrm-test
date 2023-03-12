@@ -1,0 +1,36 @@
+.copyright_container {
+  text-align: right;
+  margin-top: 33px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.copyright_container p {
+    width: 239px;
+}
+
+.copyright_container * {
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #e4e5ea;
+}
+
+.copyright_container a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .copyright_container {
+    margin-left: 16px;
+    float: left;
+    justify-content: left;
+  }
+  .copyright_container * {
+    text-align: left;
+  }
+}
